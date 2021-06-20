@@ -1,0 +1,6 @@
+---
+applications:
+- name: PaymentBilling
+  memory: 256M
+  host: PaymentBilling
+  domain: mybluemix.net
