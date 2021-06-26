@@ -1,0 +1,56 @@
+CINSERT INTO `query` (`query`, `email`) VALUES
+('Jai HInd', 'Jaihhind.com');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `student2`
+--
+
+CREATE TABLE `student2` (
+  `ID` int(11) NOT NULL,
+  `NAME` varchar(4000) DEFAULT NULL,
+  `COURSE` varchar(4000) DEFAULT NULL,
+  `MOBILE` varchar(4000) DEFAULT NULL,
+  `FEESUB` varchar(4000) DEFAULT NULL,
+  `FEE` varchar(4000) DEFAULT NULL,
+  `PAID` varchar(4000) DEFAULT NULL,
+  `BALANCE` varchar(4000) DEFAULT NULL,
+  `ADDRESS` varchar(4000) DEFAULT NULL,
+  `FATHERNAME` varchar(4000) DEFAULT NULL,
+  `MOTHERNAME` varchar(4000) DEFAULT NULL,
+  `DATEOFBIRTH` varchar(4000) DEFAULT NULL,
+  `QUALIFICATION` varchar(4000) DEFAULT NULL,
+  `DATEOFJOINING` varchar(4000) DEFAULT NULL,
+  `DESCRIPTION` varchar(4000) DEFAULT NULL,
+  `TRAINER` varchar(4000) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `student2`
+--
+
+INSERT INTO `student2` (`ID`, `NAME`, `COURSE`, `MOBILE`, `FEESUB`, `FEE`, `PAID`, `BALANCE`, `ADDRESS`, `FATHERNAME`, `MOTHERNAME`, `DATEOFBIRTH`, `QUALIFICATION`, `DATEOFJOINING`, `DESCRIPTION`, `TRAINER`) VALUES
+(0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(1, 'raman', 'mca', '9631877481', '1500', '5000', '500', '8000', 'Jhajha', 'A Kumar', 'R Devi', '1-01-1990', 'Mtech', '02-02-2005', 'talented', 'IT');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `payregister`
+--
+ALTER TABLE `payregister`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `student2`
+--
+ALTER TABLE `student2`
+  ADD PRIMARY KEY (`ID`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
